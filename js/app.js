@@ -35,7 +35,7 @@ class UI{
 
         divMensaje.textContent = mensaje;
 
-        document.querySelector('#contenido').insertBefore(divMensaje,document.querySelector('#agregar-cita'));
+        document.querySelector('#contenido').insertBefore(divMensaje, document.querySelector('.agregar-cita'));
 
         setTimeout(() => {
             divMensaje.remove();
